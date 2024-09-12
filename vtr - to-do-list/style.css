@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Kanit';
+}
+body{
+  background: #141B41;
+}
+#title{
+  font-weight: 400;
+  color: #06d6a0;
+}
+.lista-tarefas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meu-botao {
+    background-color: #06d6a0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  
+  .meu-botao:hover {
+    background-color: #06d6a0;
+  }
+
+  .container-listaTarefas{
+    /* border: 2px solid red; */
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  #tarefas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .fa-solid{
+    color: #06d6a0;
+    cursor: pointer;
+  }
+  .itensTarefa{
+    border: 2px solid;
+    list-style: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: #06d6a0;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  /* From Uiverse.io by kamehame-ha */ 
+.coolinput {
+  display: flex;
+  
+  width: fit-content;
+  position: static;
+  max-width: 400px;
+  gap: 20px;
+}
+
+
+.coolinput input[type=text].input {
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 2px #06d6a0 solid;
+  border-radius: 5px;
+  background: #141B41;
+  color: #06d6a0;
+}
+
+.coolinput input[type=text].input:focus {
+  outline: none;
+}
+
+.check{
+  text-decoration: line-through;
+}

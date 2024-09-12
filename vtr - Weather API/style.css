@@ -1,0 +1,26 @@
+:root{
+    --cor-background : #242C38;
+    --cor-secondary : #1E2531;
+}
+
+*{
+    font-family: 'SUSE';
+}
+
+body{
+    background-color: var(--cor-background);
+}
+
+.cor-gradient{
+    background-image: linear-gradient(to right,#4E88FB,#915FF6);
+    color: transparent;
+    -webkit-background-clip: text; /* Para WebKit (Chrome, Safari) */
+    -moz-background-clip: text;    /* Para Firefox */
+    background-clip: text;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
